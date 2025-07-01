@@ -54,6 +54,26 @@ npm start     # For production
 
 The backend will run on `http://localhost:5000` by default.
 
+### d. Register an Admin Account (Required)
+After starting the backend, you must register an admin account to access the admin panel. Send a POST request to:
+
+```
+POST http://localhost:5000/api/admin/register
+Content-Type: application/json
+
+{
+  "username": "your_admin_username",
+  "password": "your_admin_password"
+}
+```
+
+You can use a tool like Postman, Insomnia, or `curl`:
+```bash
+curl -X POST http://localhost:5000/api/admin/register \
+  -H "Content-Type: application/json" \
+  -d '{"username": "your_admin_username", "password": "your_admin_password"}'
+```
+
 ---
 
 ## 3. Frontend Setup

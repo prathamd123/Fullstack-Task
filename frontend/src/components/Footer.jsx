@@ -6,7 +6,7 @@ import logo from '../assets/icon.png';
 import twitter from '../assets/twitter.jpg';
 import instagram from '../assets/insta.jpg';
 import facebook from '../assets/facebook.jpg';
-import linkedin from '../assets/linkedin.jpg';
+import linkedin from '../assets/Linkedin.jpg';
 
 const Footer = () => {
     const [subscribeEmail, setSubscribeEmail] = useState('');

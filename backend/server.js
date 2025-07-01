@@ -6,8 +6,8 @@ dotenv.config();
 const fileUpload = require('express-fileupload');
 
 
-const projectRoutes = require('./routes/ProjectRoutes');
-const clientRoutes = require('./routes/ClientRoutes');
+const projectRoutes = require('./routes/projectRoutes');
+const clientRoutes = require('./routes/clientRoutes');
 const contactRoutes = require('./routes/contactRoutes');
 const subscribeRoutes = require('./routes/subscriberRoutes');
 const adminRoutes = require('./routes/adminRoutes');
